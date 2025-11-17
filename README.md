@@ -6,6 +6,11 @@
 ## Abstract
 Thermal imaging significantly augments the operational capabilities of intelligent unmanned aerial vehicles (UAVs) in complex environments. However, due to the limited resolution of onboard thermal sensors, thermal images captured by UAV suffer from insufficient detail and blurred object boundaries, thereby limiting their practicality. Although super-resolution (SR) provides a promising solution to this issue, existing any-scale SR methods adopt identical feature representations across all scales, lacking the ability to adaptively adjust features according to varying scale requirements, leading to suboptimal SR results. This issue becomes more pronounced in asymmetric scale SR, where the resolution differs significantly along different directions. To address these limitations, a novel prompt-oriented any-scale thermal SR method (AnyTSR++) is proposed for UAV. Specifically, a new image encoder is introduced to explicitly assign any-scale prompt, enabling more precise and adaptive feature representation. Furthermore, an innovative any-scale upsampler is designed by refining the coordinate offset and the local feature ensemble, enhancing spatial awareness and reducing artifacts. Additionally, a novel dataset (UAV-TSR++) comprising 24,000 images covering both land and water surface scenes is constructed to facilitate the community to conduct thermal SR research. Experimental results demonstrate that AnyTSR++ consistently outperforms state-of-the-art methods across both symmetric and asymmetric scaling factors, producing higher-resolution images with greater accuracy and more fine-grained details.
 
+## Dataset
+### UAV-TSR++ Dataset
+📦 **Download (Baidu Netdisk)**  
+**Link:** https://pan.baidu.com/s/1Q3D_CncX4D21twnvbhzmMQ  
+**Access Code:** `atsr`
 
 ## About Code
 ### 1. Environment setup
